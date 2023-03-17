@@ -77,11 +77,11 @@ btnEnviar.addEventListener("click", function (event) {
     console.log(InputCorreo.value);
     Email.send({
       Host: "smtp.elasticemail.com",
-      Username: "manuelher1619@gmail.com",
-      Password: "4C9013C47640D6AD08A0C42E877F3E07ADB6",
-      To: "manuelher1619@gmail.com",
-      From: "manuelher1619@gmail.com",
-      Subject: "Vic",
+      Username: "maodante.photo@gmail.com",
+      Password: "75D1618A3CB166D17526BCF0D49D55C02625",
+      To: "maodante.photo@gmail.com",
+      From: "maodante.photo@gmail.com",
+      Subject: "Maodante",
       Body: ` ${InputNombre.value} quiere ponerse en contacto.
             Su correo es: ${InputCorreo.value}.
             Su telefono es: ${InputTelefono.value}.
