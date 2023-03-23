@@ -48,3 +48,12 @@ body{
 .gallery-container .gallery-card a > img:hover{
     transform: scale(1.5) rotate(-30deg);
 }
+.btn{
+    background:#313131;
+    color:white;
+    border:0px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 55px;
+    font-family: 'Times New Roman', Times, serif;
+}

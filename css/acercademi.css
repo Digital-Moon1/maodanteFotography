@@ -83,7 +83,7 @@
     width: 200%;
     height: 200%;
   }
-.col-md-4{
+.letras{
   margin-right: 0px;
   margin-left: none;
   background-color: #313131;
@@ -95,7 +95,7 @@
 }
 .card-text{
   color: aliceblue;
-  text-align:right;
+  text-align:left;
   margin-right: 200px;
   font-size: 40px;
   font-family: monserrat;
@@ -122,3 +122,26 @@
     width: 60%;
   }
 }
+@media (max-width:400px) and (min-width:200px) {
+  .card-text{
+    font-size: 25px;
+    margin-left: 10px;
+    padding-right: 150px;
+    text-align: center;
+  }
+  }
+  @media (max-width:400px) and (min-width:200px) {
+    .Titulo{
+      font-size: 30px;
+    }
+    }
+    @media (max-width:400px) and (min-width:200px) {
+      .card-body{
+        margin-left: 10px;
+      }
+      }
+      @media (max-width:400px) and (min-width:200px) {
+        .col-md-8{
+          margin-left: -10px;
+        }
+        }

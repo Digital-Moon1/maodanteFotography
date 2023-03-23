@@ -108,11 +108,11 @@
      }
      }
     
-    @media (max-width:400px) and (min-width:200px) {
+    @media (max-width:200px) and (min-width:400px) {
         .container {
         width: auto;
         height: auto;
-       position: fixed;
+       position: absolute;
        margin-top: 100px;
         }
         }
