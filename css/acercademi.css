@@ -122,7 +122,7 @@
     width: 60%;
   }
 }
-@media (max-width:400px) and (min-width:200px) {
+@media (max-width:465px) and (min-width:200px) {
   .card-text{
     font-size: 25px;
     margin-left: 10px;
